@@ -1,0 +1,111 @@
+# 👉 Ignore tất cả thư mục output build
+**/bin/
+**/obj/
+
+# 👉 Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 👉 Ignore VS Code setting folder
+.vscode/
+
+# 👉 Ignore Rider IDE
+.idea/
+
+# 👉 Ignore các file tạm thời
+*.tmp
+*.temp
+*.bak
+*.log
+*.ncb
+*.cache
+*.dbmdl
+*.db
+
+# 👉 Ignore file môi trường
+.env
+*.env.*
+
+# 👉 Ignore publish folder
+**/publish/
+**/dist/
+
+# 👉 Ignore test results
+TestResults/
+*.trx
+*.coverage
+
+# 👉 Ignore cấu hình máy cá nhân
+*.local.json
+**/appsettings.Development.json
+
+# 👉 Ignore node_modules nếu có frontend
+**/node_modules/
+
+# 👉 Nếu có wwwroot/assets auto-gen
+**/wwwroot/assets/
+
+# 👉 Ignore git giữ lại folder trống (nếu cần)
+!**/.gitkeep
+
+# 👉 Ignore mọi thư mục bắt đầu bằng dấu //
+**//*/temp/
+**//*/backup/
+
+# 👉 Ignore tất cả thư mục output build
+**/bin/
+**/obj/
+
+# 👉 Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# 👉 Ignore VS Code setting folder
+.vscode/
+
+# 👉 Ignore Rider IDE
+.idea/
+
+# 👉 Ignore các file tạm thời
+*.tmp
+*.temp
+*.bak
+*.log
+*.ncb
+*.cache
+*.dbmdl
+*.db
+
+# 👉 Ignore file môi trường
+.env
+*.env.*
+
+# 👉 Ignore publish folder
+**/publish/
+**/dist/
+
+# 👉 Ignore test results
+TestResults/
+*.trx
+*.coverage
+
+# 👉 Ignore cấu hình máy cá nhân
+*.local.json
+**/appsettings.Development.json
+
+# 👉 Ignore node_modules nếu có frontend
+**/node_modules/
+
+# 👉 Nếu có wwwroot/assets auto-gen
+**/wwwroot/assets/
+
+# 👉 Ignore git giữ lại folder trống (nếu cần)
+!**/.gitkeep
+
+# 👉 Ignore các thư mục tạm theo tên
+**/temp/
+**/backup/

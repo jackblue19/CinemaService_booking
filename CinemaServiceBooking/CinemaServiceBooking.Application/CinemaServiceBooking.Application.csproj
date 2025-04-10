@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CinemaServiceBooking.Domain\CinemaServiceBooking.Domain.csproj" />
+    <ProjectReference Include="..\CinemaServiceBooking.Infrastructure\CinemaServiceBooking.Infrastructure.csproj" />
+    <ProjectReference Include="..\CinemaServiceBooking.Logging\CinemaServiceBooking.Logging.csproj" />
+    <ProjectReference Include="..\CinemaServiceBooking.Contracts\CinemaServiceBooking.Contracts.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
