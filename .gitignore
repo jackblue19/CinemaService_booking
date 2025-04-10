@@ -109,3 +109,5 @@ TestResults/
 # 👉 Ignore các thư mục tạm theo tên
 **/temp/
 **/backup/
+
+**/appsettings.json
