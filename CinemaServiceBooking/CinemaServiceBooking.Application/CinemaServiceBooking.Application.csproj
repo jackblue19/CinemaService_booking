@@ -1,10 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="14.0.0" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\CinemaServiceBooking.Domain\CinemaServiceBooking.Domain.csproj" />
     <ProjectReference Include="..\CinemaServiceBooking.Infrastructure\CinemaServiceBooking.Infrastructure.csproj" />
     <ProjectReference Include="..\CinemaServiceBooking.Logging\CinemaServiceBooking.Logging.csproj" />
     <ProjectReference Include="..\CinemaServiceBooking.Contracts\CinemaServiceBooking.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Services\" />
   </ItemGroup>
 
   <PropertyGroup>
